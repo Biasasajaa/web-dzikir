@@ -1,0 +1,161 @@
+body {
+    margin: 0%;
+    background-image: url(Bg.jpg);
+}
+
+nav {
+    background-color: teal;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.definisi {
+    margin: 0%;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pengertian h1,
+h2 {
+    margin: 15px;
+    color: white;
+}
+
+.pengertian p {
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    
+}
+
+.container a {
+    color: aliceblue;
+}
+
+.item {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.container .item {
+    flex: 0 0 20%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+}
+
+.kotak {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.kotak .item {
+    flex: 0 0 17%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.footcontain {
+    background-color: black;
+}
+
+.wraper1 a {
+    padding: 10px;
+    color: aliceblue;
+    font-size: large;
+}
+
+.container-wr1 .wraper1 a:hover {
+    margin: 20px 0;
+    color: #ffc300;
+}
+
+.wraper2 {
+    margin-top: 30px;
+    max-width: 1210px;
+}
+
+.wraper2 .row {
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.wraper2 .row .col-lg-2 {
+    color: aliceblue;
+    font-style: inherit;
+    text-align: justify;
+}
+
+.wraper2 .row .col-lg-2 h5 {
+    font-size:large;
+}
+
+.wraper2 .row .col-lg-2 p {
+    margin: 0px;
+    max-width: 280px;
+}
+
+.wraper2 .row .col-lg-2 a {
+    margin: 0px;
+    font-size: large;
+    color: aliceblue;
+}
+
+.wraper2 .row .col-lg-2 a:hover {
+    margin: 0px;
+    color: #ffc300;
+}
+
+.container-wr1 .hh {
+    margin-top: 70px;
+}
+
+@media only screen and (min-width:1219px){
+    .nav {
+        margin: 0 5%;
+    }
+    .definisi {
+        margin: 6%;
+        border-radius: 10px;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row img {
+        height:280px;
+    }
+
+    .container-wr1 {
+        margin: 6%;
+        padding-top: 30px;
+    }
+}
