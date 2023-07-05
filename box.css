@@ -4,7 +4,15 @@
     justify-content: center;
 }
 
+.h1 {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+}
 
+.cols {
+    margin-right: 10%;
+}
 
 .cols .but {
     display: flex;
@@ -12,7 +20,42 @@
     justify-content: center;
 }
 
-.cols .boxwhite {
-    width: 1000px;
+button {
+    background-color: teal;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: white;
+}
+
+.or {
+    padding: 10px 50px;
+    margin: 5%;
+}
+
+.cols1 {
+    width: 900px;
+    height: 500px;
     background-color: aliceblue;
+}
+
+.cols1 #result {
+    width: 850px;
+    background-color: aliceblue;
+    color: black;
+    margin: 0 20px;
+}
+
+h3 {
+    line-height: 2;
+}
+
+p {
+    width: 600px;
+    text-align: justify;
+    line-height: 1.5;
 }
