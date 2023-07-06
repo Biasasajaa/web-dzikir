@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     background-image: url(Bg.jpg);
+    min-height: 100%;
 }
 
 nav {
@@ -135,6 +136,7 @@ h2 {
 .container-wr1 .hh {
     margin-top: 70px;
 }
+
 
 @media only screen and (min-width:1219px){
     .nav {

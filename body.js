@@ -1,7 +1,5 @@
 $(document).ready(function () {
     $('#1').css('text-align', 'justify');
-    $('.cadet').css('background-color', 'cadetblue')
-    $('.light').css('background-color', 'lightseagreen');
     $('.ok').css('font-size', '25px');
 
     $('#a').mouseenter(function () {

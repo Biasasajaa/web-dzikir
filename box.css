@@ -41,6 +41,7 @@ button:hover {
     width: 900px;
     height: 500px;
     background-color: aliceblue;
+    border-radius: 20px
 }
 
 .cols1 #result {
@@ -55,7 +56,6 @@ h3 {
 }
 
 p {
-    width: 600px;
     text-align: justify;
     line-height: 1.5;
 }
