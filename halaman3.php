@@ -14,7 +14,7 @@
 <body>
 
         <div class="definisi">
-            <div class="h1">Dzikir Petang</div>
+            <div class="h1">Dzikir Ba'da Sholat</div>
             <div class="boxs">
                 <div class="row">
                     <div class="cols">
